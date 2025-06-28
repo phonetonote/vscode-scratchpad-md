@@ -1,6 +1,6 @@
 {
-    "name": "scratchpad",
-    "displayName": "Scratchpad",
+    "name": "scratchpad-md",
+    "displayName": "Scratchpad MD",
     "description": "a simple scratchpad for vscode",
     "version": "0.0.1",
     "publisher": "awesomektvn",
@@ -14,7 +14,7 @@
     "main": "./out/src/extension.js",
     "contributes": {
         "commands": [{
-            "command": "extension.openScratchpad",
+            "command": "extension.openScratchpadMd",
             "title": "Open Scratchpad"
         }]
     },

@@ -9,7 +9,7 @@ let fullPath = ""
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    "extension.openScratchpad",
+    "extension.openScratchpadMd",
     () => {
       fullPath = path.join(context.extensionPath, fileName)
       if (!fs.existsSync(fullPath)) {

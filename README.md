@@ -13,7 +13,7 @@ Simple Scratchpad for quick notes.
 ```
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+shift+.",   "command": "extension.openScratchpad", "when": "editorTextFocus" }
+    { "key": "ctrl+shift+.",   "command": "extension.openScratchpadMd", "when": "editorTextFocus" }
 ]
 ```
 4. Enjoy! :)
