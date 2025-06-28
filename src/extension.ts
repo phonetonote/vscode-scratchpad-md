@@ -4,7 +4,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import {EOL} from 'os';
 
-const fileName = 'scratchpad.txt';
+const fileName = 'scratchpad.md';
 let fullPath = '';
 
 export function activate(context: vscode.ExtensionContext) {
